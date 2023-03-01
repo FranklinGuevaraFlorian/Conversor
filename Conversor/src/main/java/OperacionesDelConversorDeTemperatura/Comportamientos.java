@@ -10,4 +10,9 @@ package OperacionesDelConversorDeTemperatura;
  */
 public interface Comportamientos {
     
-}
+    public abstract double DeFahrenheit(double cantidadAConvertir, int index);
+    public abstract double DeCelsius(double cantidadAConvertir, int index);
+    public abstract double DeKelvein(double cantidadAConvertir, int index);
+    public abstract String nombreDeTemperatura(int index);
+
+};
