@@ -22,6 +22,7 @@ Proyecto realizado aprovechando los pilares de la programación orientada a obje
  <li>Java V19.0.2</li>
  <li>IDE NetBeans</li>
  <li>Biblioteca Swing</li>
+ <li>Git</li>
 </ul>
 
 <h2 id = "resultados">Resultados</h2>
