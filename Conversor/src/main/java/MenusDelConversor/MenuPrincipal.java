@@ -77,6 +77,10 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 ConvertirDeSoles abrirFormMonedas = new ConvertirDeSoles();
                 abrirFormMonedas.setVisible(true);
                 this.dispose();
+            }else {
+                ConvertidorDeTemperatura abrirFormTemperatura = new ConvertidorDeTemperatura();
+                abrirFormTemperatura.setVisible(true);
+                this.dispose();
             }
     }//GEN-LAST:event_btnSeleccionarActionPerformed
 
