@@ -3,7 +3,7 @@ package OperacionesDelConversorDeMonedas;
  *
  * @author franklinadrianajguevaraflorian
  */
-public abstract class Monedas {
+public abstract class Monedas implements Comportamientos {
     
     private final double dolar;
     private final double euro;
@@ -38,8 +38,5 @@ public abstract class Monedas {
     public double getWonSulCoreano() {
         return wonSulCoreano;
     };
-   public abstract double conversorDeDinero(double cantidadParaCambiar, int indice);
-   public abstract String nombreDeMoneda(int indice);
-   public abstract double operacionDeSolesAMonedaExtranjera(double getMonedaExtranjera, double cantidadParaCambiar);
-   public abstract double operacionDeMonedaExtranjeraASoles(double cantidadParaCambiar,double getMonedaExtranjera );
+   
 };
